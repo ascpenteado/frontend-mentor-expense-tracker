@@ -1,0 +1,57 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+// Colors
+$soft-red: hsl(10, 79%, 65%);
+$cyan: hsl(186, 35%, 60%);
+$dark-brown: hsl(25, 47%, 15%);
+$medium-brown: hsl(28, 10%, 53%);
+$cream: hsl(27, 66%, 92%);
+$very-pale-orange: hsl(30, 100%, 98%);
+
+:root {
+  --soft-red: #ec775f;
+  --cyan: #75b6bd;
+  --dark-brown: #382314;
+  --medium-brown: #93867b;
+  --cream: #f8e9dd;
+  --very-pale-orange: #fffaf5;
+
+  // Variables
+  --small-border-radius: 3px;
+  --medium-border-radius: 10px;
+}
+
+// Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--cream);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,20 @@
+@use '../../styles/mixins/text-styles.mixin.scss' as *;
+@use '../../styles/mixins/breakpoints.mixin.scss' as *;
+
+.bar-chart-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .title {
+    @include base-font;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.291;
+    margin-bottom: 3.25rem;
+    color: var(--dark-brown, #382314);
+
+    @include for-desktop {
+      @include heading-large;
+    }
+  }
+}

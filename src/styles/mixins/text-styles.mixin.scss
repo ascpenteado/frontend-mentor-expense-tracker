@@ -1,0 +1,33 @@
+@mixin base-font {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@mixin mini-caption {
+  @include base-font;
+  font-size: 0.9375rem;
+  line-height: 1.33;
+}
+
+@mixin body {
+  @include base-font;
+  font-size: 1.125rem;
+  line-height: 1.27;
+}
+
+@mixin heading-large {
+  @include base-font;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.3125;
+}
+
+@mixin heading-x-large {
+  @include base-font;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.291;
+}

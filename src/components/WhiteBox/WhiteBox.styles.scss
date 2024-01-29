@@ -1,0 +1,12 @@
+@use '../../styles/mixins/text-styles.mixin.scss' as *;
+
+.white-box-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--very-pale-orange);
+  padding: 1.5rem 1.25rem;
+  padding-right: 1.5rem;
+  border-radius: var(--medium-border-radius);
+  margin-top: 1rem;
+}
