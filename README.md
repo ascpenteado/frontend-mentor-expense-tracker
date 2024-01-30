@@ -1,6 +1,47 @@
-# expense-tracker
+# Frontend Mentor - Expenses chart component solution
 
-This template should help get you started developing with Vue 3 in Vite.
+
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the bar chart and hover over the individual bars to see the correct amounts for each day
+- See the current day’s bar highlighted in a different colour to the other bars
+- View the optimal layout for the content depending on their device’s screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](./design/desktop-preview.jpg)
+
+### Links
+
+- Solution URL: [https://frontend-mentor-expense-tracker.vercel.app/](https://frontend-mentor-expense-tracker.vercel.app/)
+
+
+### Built with
+
+- Vue3 - Composition API
+- SCSS
+
+### What I learned
+
+This project main goal was to learn Vue3. This is my first contact with Vue and I found it to be very pleaseant to work with. I enjoyed the Single File Component (SFC) structure and the Composition API makes it easy to keep the front-end code organized and clean.
+
+### Continued development
+
+I still have to try a lot of the reactivity features of Vue, data fetching and state management.
+
+## Author
+
+- Linkedin - [in/arthurpenteado](https://www.linkedin.com/in/arthurpenteado/)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ascpenteado)
+- My blog - [https://artcodes.dev](https://artcodes.dev)
+
 
 ## Recommended IDE Setup
 
@@ -21,51 +62,34 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
 
-```sh
-npm install
-```
+
+
+
+
+## Project Setup
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
+yarn build
 ```
 
 ### Run End-to-End Tests with [Playwright](https://playwright.dev)
 
 ```sh
-# Install browsers for the first run
-npx playwright install
-
 # When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
+yarn build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+yarn lint
 ```
